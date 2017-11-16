@@ -1,0 +1,7 @@
+This product includes portion of 'openlayers'
+ URL: http://openlayers.org/
+ License: 2-clause BSD License
+
+This product includes portion of 'openlayers4jgsi'
+ URL: http://code.google.com/p/openlayers4jgsi/
+ License: New BSD License
