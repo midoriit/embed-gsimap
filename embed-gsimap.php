@@ -1,7 +1,6 @@
 <?php
 /*
 	Plugin Name: Embed GSIMap
-	Plugin URI: https://midoriit.com/works/embed-gsimap.html
 	Description: Embed GSIMap on the page/post.
 	Version: 1.0
 	Author: Midori IT Office, LLC
@@ -506,7 +505,4 @@ class Embed_GSIMap {
 		$ol4jgsi = plugins_url().'/embed-gsimap/openlayers4jgsi/Crosshairs.js';
 		wp_enqueue_script( 'OL4JGSI', $ol4jgsi );
 	}
-	/*
-	 * Enqueue style sheet
-	 */
 ?>
