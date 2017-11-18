@@ -43,7 +43,7 @@ class Embed_GSIMap {
 	function embed_gsimap_loaded() {
 		$ret = load_plugin_textdomain( 'embed-gsimap', false,
 			basename( dirname(__FILE__) ).'/languages/' );
-		$this->attribution = '<a href=\"http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html\" target=\"_blank\">'.__( 'Geospatil Information Authority of Japan', 'embed-gsimap' ).'</a>';
+		$this->attribution = '<a href=\"http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html\" target=\"_blank\">'.__( 'Geospatial Information Authority of Japan', 'embed-gsimap' ).'</a>';
 	}
 
 	/*
